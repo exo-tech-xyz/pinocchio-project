@@ -13,6 +13,7 @@ package.edition = "2021"
 
 [workspace.dependencies]
 borsh = "1.5.5"
+litesvm = "0.5.0"
 pinocchio = "0.7.1"
 pinocchio-log = "0.3.0"
 pinocchio-pubkey = "0.2.2"
