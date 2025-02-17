@@ -7,9 +7,7 @@ edition = { workspace = true }
 borsh = { workspace = true }
 litesvm = { workspace = true }
 myproject-client = { workspace = true }
-solana-program-test = { workspace = true }
 solana-sdk = { workspace = true }
-tokio = { workspace = true }
 
 [dev-dependencies]
 test-log = "0.2.17"
