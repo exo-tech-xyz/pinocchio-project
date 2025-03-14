@@ -1,10 +1,6 @@
 [workspace]
 
-members = [
-  "program",
-  "integration_tests",
-  "clients/rust",
-]
+members = ["program", "integration_tests", "clients/rust"]
 
 resolver = "2"
 
@@ -22,3 +18,4 @@ shank = "0.4.2"
 myproject-client = { path = "clients/rust" }
 solana-program = "2.2.1"
 solana-sdk = "2.2.1"
+thiserror = "2.0.12"
