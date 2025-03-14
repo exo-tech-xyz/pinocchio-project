@@ -1,15 +1,20 @@
 {
   "name": "myproject",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "generate-clients": "node ./scripts/generate-clients.js",
-    "generate-idl": "shank idl -r program -o idl"
+    "generate:clients": "zx ./scripts/generate-clients.mjs",
+    "generate:idl": "shank idl -r program -o idl"
   },
   "devDependencies": {
+    "@codama/renderers-js": "^1.0.0",
+    "@codama/renderers-rust": "^1.0.0",
     "@codama/nodes-from-anchor": "^1.1.6",
-    "@codama/renderers": "^1.0.14",
-    "codama": "^1.2.6"
-  }
+    "codama": "^1.2.6",
+    "zx": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=v20.0.0"
+  },
+  "packageManager": "pnpm@9.1.0"
 }
