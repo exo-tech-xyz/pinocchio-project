@@ -26,6 +26,13 @@
       }
     }
   ],
+  "errors": [
+    {
+      "code": 0,
+      "name": "Invalid",
+      "msg": "Invalid"
+    }
+  ],
   "metadata": {
     "origin": "shank",
     "address": "2NCpU9nsgLfhqKX5CDVz24FfsZ8aRwjgUWtFbPsVZVu2"
