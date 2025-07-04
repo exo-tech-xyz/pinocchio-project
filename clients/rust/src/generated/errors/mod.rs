@@ -4,3 +4,7 @@
 //!
 //! <https://github.com/codama-idl/codama>
 //!
+
+pub(crate) mod myproject;
+
+pub use self::myproject::MyprojectError;
