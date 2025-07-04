@@ -7,3 +7,6 @@ edition = { workspace = true }
 [dependencies]
 borsh = {workspace = true }
 solana-program = { workspace = true }
+thiserror = { workspace = true }
+num-derive = "0.4"
+num-traits = "0.2"
