@@ -41,7 +41,7 @@ yarn install
 Run client generation script
 
 ```
-yarn generate-clients
+yarn generate:clients
 ```
 
 ## Running Tests

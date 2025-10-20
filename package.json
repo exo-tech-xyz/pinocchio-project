@@ -15,6 +15,5 @@
   },
   "engines": {
     "node": ">=v20.0.0"
-  },
-  "packageManager": "pnpm@9.1.0"
+  }
 }

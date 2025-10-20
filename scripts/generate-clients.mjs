@@ -7,7 +7,7 @@ import { renderVisitor as renderRustVisitor } from '@codama/renderers-rust';
 
 const workingDirectory = (await $`pwd`.quiet()).toString().trim();
 
-// Instanciate Codama.
+// Instantiate Codama.
 const Codama = createFromRoot(
   rootNodeFromAnchor(require(path.join(workingDirectory, 'idl', 'myproject.json')))
 );
