@@ -1,10 +1,6 @@
 [workspace]
 
-members = [
-  "program",
-  "integration_tests",
-  "clients/rust",
-]
+members = ["program", "integration_tests", "clients/rust"]
 
 resolver = "2"
 
