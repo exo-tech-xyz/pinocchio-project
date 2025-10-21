@@ -1,6 +1,8 @@
 use helpers::lite_svm_with_programs;
 use myproject_client::instructions::InitializeBuilder;
-use solana_sdk::{signature::Keypair, signer::Signer, transaction::Transaction};
+use solana_keypair::signature::Keypair;
+use solana_signer::signer::Signer;
+use solana_transaction::transaction::Transaction;
 
 mod helpers;
 
